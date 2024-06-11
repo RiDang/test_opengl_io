@@ -17,4 +17,4 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${OPENGL_INCLUDE_DIRS}
                                             "3rd/glad-3.3/include/"
                                             "shader/")
  
-target_link_libraries(${PROJECT_NAME}  ${OPENGL_LIBRARIES} glfw dl)
+target_link_libraries(${PROJECT_NAME}  ${OPENGL_LIBRARIES} glfw dl assimp)
