@@ -138,7 +138,7 @@ void show_mat4(const glm::mat4& mat4){
 }
 
 std::string get_root_path(){
-    return "/home/ubt/Projects/opengl/test_opengl_obj";
+    return "/home/ubt22/Projects/test_opengl_io/";
 }
 
 GLFWwindow* InitWindow(){
